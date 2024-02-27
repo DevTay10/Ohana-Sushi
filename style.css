@@ -22,6 +22,7 @@ body{
 
 #banner{
     
+    width: 100%;
     
 }
 
@@ -30,7 +31,7 @@ body{
     display: inline-block;
     align-items: center;
     padding-left: 75px;
-    z-index: 2;
+
     
 }
 
@@ -41,9 +42,9 @@ body{
 
 }
 
-logo{
+.inline-block .logo{
     
-    z-index: 2;
+    z-index: 1000;
     
 }
 
@@ -54,5 +55,23 @@ logo{
     
 }
 
+.inline-block .reservation{
+    
+    z-index: 999;
+    margin-top: 170px;
 
+ 
+}
 
+.inline-block .orderOnline{
+    
+    z-index: 998;
+    margin-top: 170px;
+    
+}
+
+#topSeparatorDesign{
+    
+    z-index: 2;
+
+}
