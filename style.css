@@ -13,3 +13,10 @@ body{
     background-image: url(images/Bkg.png);
     
 }
+
+.container-fluid{
+    
+    align-self: center;
+    
+    
+}
