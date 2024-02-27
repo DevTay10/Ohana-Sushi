@@ -31,6 +31,7 @@ body{
     display: inline-block;
     align-items: center;
     padding-left: 75px;
+    z-index: 2;
     
 }
 
@@ -49,7 +50,7 @@ logo{
 
 .carouselExample{
     
-    background-image: url(images/headerImage.png);
+    background-image: url(images/);
     
 }
 
