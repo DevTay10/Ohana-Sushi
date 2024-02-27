@@ -21,10 +21,29 @@ body{
 }
 
 
+#banner{
+    
+    
+}
+
 .inline-block{
     
     display: inline-block;
     align-items: center;
-    width: auto;
+    padding: 0px 100px 100px 0px;
     
 }
+
+.ourRestaurant{
+
+    float: right;
+    padding-right: 200px;
+
+}
+
+logo{
+    
+    z-index: 2;
+    
+}
+
