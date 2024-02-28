@@ -54,7 +54,6 @@ body{
     padding-left: 200px;
     
 }
-
 .inline-block .reservation{
     
     z-index: 999;
@@ -69,6 +68,25 @@ body{
     margin-top: 170px;
     
 }
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+
+  }
+  .image2 {
+    position: absolute;
+    top: 881px;
+    left: 0px;
+   
+  }
 
 #topSeparatorDesign{
     
