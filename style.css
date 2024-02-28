@@ -1,6 +1,4 @@
-<!doctype CSS>
-
-headerImage{
+.headerImage{
     
  
     align-self: center;
@@ -198,11 +196,17 @@ body{
 
 #download{
     
-  font-family: "Philosopher", sans-serif;
-  font-weight: 350;
-  font-style: normal;
-  color: white;
-  text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 350;
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    overflow-wrap: normal;
+    z-index: 1001;
+    position: absolute;
+    top: 957px;
+    left: 610px;
   text-decoration: underline;
     
 }
