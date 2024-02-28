@@ -75,3 +75,19 @@ body{
     z-index: 2;
 
 }
+
+.card-img-top{
+    
+    height: 200px;
+    width: 100%;
+}
+
+#menuH1{
+    
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-align: center;
+    
+}
