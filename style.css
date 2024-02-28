@@ -42,26 +42,14 @@ body{
 
 }
 
-.inline-block .logo{
-    
-    z-index: 1000;
-    
-}
-
 .customerReviews{
     
     float: left;
     padding-left: 200px;
     
 }
-.inline-block .reservation{
-    
-    z-index: 999;
-    margin-top: 170px;
 
- 
-}
-
+/*
 .inline-block .orderOnline{
     
     z-index: 998;
@@ -69,10 +57,50 @@ body{
     
 }
 
+.inline-block .logo{
+    
+    z-index: 1000;
+    
+}
+
+.inline-block .reservation{
+    
+    z-index: 999;
+    margin-top: 170px;
+
+ 
+}
+*/
+
 .parent {
     position: relative;
     top: 0;
     left: 0;
+   
+  }
+
+  .orderOnline {
+    position: relative;
+    top: 80px;
+    left: 40px;
+    z-index: 1000;
+
+  }
+
+  .logo {
+    position: relative;
+    top: 35px;
+    left: 153px;
+    
+
+  }
+
+  .reservation {
+    position: relative;
+    top: 80px;
+    left: 270px;
+    z-index: 998;
+
   }
 
   .image1 {
@@ -85,6 +113,7 @@ body{
     position: absolute;
     top: 881px;
     left: 0px;
+    mix-blend-mode: luminosity;
    
   }
 
