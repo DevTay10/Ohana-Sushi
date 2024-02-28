@@ -48,8 +48,6 @@ body{
     padding-left: 200px;
     
 }
-<<<<<<< HEAD
-=======
 
 .inline-block .reservation{
     
@@ -57,7 +55,6 @@ body{
     margin-top: 170px;
 
 }
->>>>>>> f3e86d1b652ef7846c1ef8b8e4b898d84f04347b
 
 /*
 .inline-block .orderOnline{
@@ -87,7 +84,6 @@ body{
     position: relative;
     top: 0;
     left: 0;
-<<<<<<< HEAD
    
   }
 
@@ -113,10 +109,8 @@ body{
     left: 270px;
     z-index: 998;
 
-=======
     z-index: 1;
     
->>>>>>> f3e86d1b652ef7846c1ef8b8e4b898d84f04347b
   }
 
 .image1 {
@@ -127,16 +121,14 @@ body{
     z-index: 1001;
 
   }
+  
 .image2 {
       
     position: absolute;
     top: 871px;
     left: 0px;
-<<<<<<< HEAD
     mix-blend-mode: luminosity;
-=======
     z-index: 1000;
->>>>>>> f3e86d1b652ef7846c1ef8b8e4b898d84f04347b
    
   }
 
