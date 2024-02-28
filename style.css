@@ -54,12 +54,12 @@ body{
     padding-left: 200px;
     
 }
+
 .inline-block .reservation{
     
     z-index: 999;
     margin-top: 170px;
 
- 
 }
 
 .inline-block .orderOnline{
@@ -70,21 +70,28 @@ body{
 }
 
 .parent {
+    
     position: relative;
     top: 0;
     left: 0;
+    z-index: 1;
+    
   }
 
-  .image1 {
+.image1 {
+      
     position: relative;
     top: 0;
     left: 0;
+    z-index: 1001;
 
   }
-  .image2 {
+.image2 {
+      
     position: absolute;
     top: 881px;
     left: 0px;
+    z-index: 1000;
    
   }
 
