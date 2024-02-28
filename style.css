@@ -117,6 +117,17 @@ body{
     
 }
 
+#download{
+    
+  font-family: "Philosopher", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+    
+}
+
 .nav-link{
     
   font-family: "Philosopher", sans-serif;
@@ -124,5 +135,14 @@ body{
   font-style: normal;
   color: black;
   text-align: center;
+    
+}
+
+.footer{
+    
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
     
 }
