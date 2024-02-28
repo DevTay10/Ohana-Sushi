@@ -79,6 +79,7 @@ body{
 }
 */
 
+/* Banner Parent - All Tabs */
 .parent {
     
     position: relative;
@@ -107,9 +108,7 @@ body{
     position: relative;
     top: 80px;
     left: 270px;
-    z-index: 998;
-
-    z-index: 1;
+    z-index: 999;
     
   }
 
@@ -118,19 +117,29 @@ body{
     position: relative;
     top: 0;
     left: 0;
-    z-index: 1001;
+    z-index: 996;
 
   }
-  
+
 .image2 {
       
     position: absolute;
     top: 871px;
     left: 0px;
     mix-blend-mode: luminosity;
-    z-index: 1000;
+    z-index: 998;
    
   }
+
+.aboutusimg{
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    width: 80%;
+    
+
+}
 
 #topSeparatorDesign{
     
@@ -144,6 +153,7 @@ body{
     width: 100%;
 }
 
+
 #menuH1{
     
   font-family: "Philosopher", sans-serif;
@@ -153,6 +163,38 @@ body{
   text-align: center;
     
 }
+
+#aboutH1{
+    
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    overflow-wrap: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 120px;
+    margin-left: 120px;
+      
+  }
+
+  #aboutH2{
+    
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    overflow-wrap: normal;
+    z-index: 1001;
+    position: absolute;
+    top: 957px;
+    left: 610px;
+  }
+
 
 #download{
     
