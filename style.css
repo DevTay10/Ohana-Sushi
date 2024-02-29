@@ -35,15 +35,31 @@ body{
 
 .ourRestaurant{
 
-    float: right;
+    position: relative;
     padding-right: 200px;
+    top: 47px;
+    left: 950px;
+    z-index: 1000;
+
+}
+
+.ourfoodtab{
+
+  position: relative;
+  padding-right: 200px;
+  top: 47px;
+  left: 180px;
+  z-index: 1000;
 
 }
 
 .customerReviews{
     
-    float: left;
-    padding-left: 200px;
+  position: relative;
+  padding-right: 200px;
+  top: 47px;
+  left: 180px;
+  z-index: 1000;
     
 }
 
@@ -209,6 +225,18 @@ body{
     left: 610px;
   text-decoration: underline;
     
+}
+
+.separatorindex {
+  
+  mix-blend-mode: luminosity;
+ 
+}
+
+.separatorreviews {
+  
+  mix-blend-mode: luminosity;
+ 
 }
 
 .nav-link{
